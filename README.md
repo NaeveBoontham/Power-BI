@@ -24,3 +24,22 @@ If the next time you refresh the dataset and the latest data ends at **October 2
 
 ---
 
+# 📈 Cumulative Monthly Filtering in Power BI
+
+**📁 Project Overview**
+
+This Power BI report showcases a method to **dynamically display data from the beginning of a selected year up to a user-selected month**. It meets a common business requirement: instead of filtering to just a single month, users want to see the **cumulative values from January to the selected month**.
+
+**✅ Benefits**
+
+- Gives users intuitive control over how much of the year’s data they want to see  
+- Enables powerful **year-to-date** or **partial period comparisons**  
+- Makes the report more **user-friendly and dynamic**
+
+**💡 Use Case Example**
+
+If the user selects **Year = 2020** and **Month = August**, the report will display data from **January to August 2020**, rather than just August.  
+
+---
+
+
