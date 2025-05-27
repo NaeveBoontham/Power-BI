@@ -61,5 +61,40 @@ In this project, I built a **linear gauge-style bar chart** in Power BI to visua
 
 A score that ranges from **0–5** is normalized to a **1–5 scale**, and the result is plotted accordingly. Even if Grade 1 covers a huge part of the real range (e.g., 0–4), it appears as **just one equal segment** in the chart—just like every other grade. This makes it easier to visually compare and understand performance without bias from uneven value distribution.
 
+---
+<br>
+
+# 📊 Progress Bar with Conditional Grading in Power BI
+
+**📁 Project Overview**
+
+This Power BI project is designed to visualize progress toward a target using a **stacked bar chart** that shows:
+- The **achieved value**
+- The **remaining value**
+- And conditionally **color-codes** the progress bar based on how far along you are toward the goal.
+
+**✅ Benefits**
+
+- Simulates **dynamic conditional coloring** using stacked bars
+- Works within Power BI’s native capabilities
+- **No custom visuals or extensions** needed
+- Reusable for **targets in sales, production, operations, or performance tracking**
+
+**💡 Use Case Example**
+
+A business team requested a visual progress bar to track performance toward a target (e.g., 75,000). The bar needed to:
+
+- Show both **achieved** and **remaining** values side-by-side  
+- **Change color** based on progress:
+  - 🔴 Low (0–35,000)
+  - 🟡 Medium (35,000–target)
+  - 🟢 Over target
+- Use ⚫ gray to represent the remaining portion
+
+Since Power BI doesn’t support conditional formatting in stacked bars, the solution splits the achieved value into ranges using DAX and applies fixed colors—mimicking dynamic progress grading.
+
+
+
+
 
 
