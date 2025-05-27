@@ -56,7 +56,6 @@ In this project, I built a **linear gauge-style bar chart** in Power BI to visua
 - Works across **all metric ranges**, no matter how small or large  
 - Ensures **visual consistency** with equal-width grading bands  
 - Makes performance grading **clear and easy to understand**  
-- Can support dynamic metric selection and real-time scaling  
 
 **💡 Use Case Example**
 
