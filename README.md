@@ -3,7 +3,7 @@
 
 # 📊 Dynamic Latest Month Filtering in Power BI
 
-**📁 Project Overview**
+**📁 Overview**
 
 This Power BI report demonstrates how to **dynamically lock visuals to the latest available month of data**, based entirely on the data loaded into the model — not based on today's date.
 
@@ -28,7 +28,7 @@ If the next time you refresh the dataset and the latest data ends at **October 2
 
 # 📈 Cumulative Monthly Filtering in Power BI
 
-**📁 Project Overview**
+**📁 Overview**
 
 This Power BI report showcases a method to **dynamically display data from the beginning of a selected year up to a user-selected month**. It meets a common business requirement: instead of filtering to just a single month, users want to see the **cumulative values from January to the selected month**.
 
@@ -47,7 +47,7 @@ If the user selects **Year = 2020** and **Month = August**, the report will disp
 
 # 📊 Linear Gauge with Normalized Grading in Power BI
 
-**📁 Project Overview**
+**📁 Overview**
 
 In this project, I built a **linear gauge-style bar chart** in Power BI to visualize performance metrics by grading them from **Grade 1 (lowest)** to **Grade 5 (highest)**. This was based on real user requirements where each metric had **non-uniform and varying value ranges**, making traditional charting methods ineffective.
 
@@ -66,7 +66,7 @@ A score that ranges from **0–5** is normalized to a **1–5 scale**, and the r
 
 # 📊 Progress Bar with Conditional Grading in Power BI
 
-**📁 Project Overview**
+**📁 Overview**
 
 This Power BI project is designed to visualize progress toward a target using a **stacked bar chart** that shows:
 - The **achieved value**
