@@ -23,6 +23,10 @@ This approach is helpful when:
 If your dataset contains records only up to **April 2028**, the report will auto-filter to April 2028.  
 If the next time you refresh the dataset and the latest data ends at **October 2029**, the visuals will automatically shift to show October 2029 — **without editing anything**.
 
+<br>
+
+[Download PBIX file](https://github.com/NaeveBoontham/Power-BI/tree/main/LastestMonthFilter)
+
 ---
 <br>
 
@@ -42,6 +46,10 @@ This Power BI report showcases a method to **dynamically display data from the b
 
 If the user selects **Year = 2020** and **Month = August**, the report will display data from **January to August 2020**, rather than just August.
 
+<br>
+
+[Download PBIX file](https://github.com/NaeveBoontham/Power-BI/tree/main/CumulativeMonthFilter)
+
 ---
 <br>
 
@@ -60,6 +68,10 @@ In this project, I built a **linear gauge-style bar chart** in Power BI to visua
 **💡 Use Case Example**
 
 A score that ranges from **0–5** is normalized to a **1–5 scale**, and the result is plotted accordingly. Even if Grade 1 covers a huge part of the real range (e.g., 0–4), it appears as **just one equal segment** in the chart—just like every other grade. This makes it easier to visually compare and understand performance without bias from uneven value distribution.
+
+<br>
+
+[Download PBIX file](https://github.com/NaeveBoontham/Power-BI/tree/main/LinearGauge)
 
 ---
 <br>
@@ -92,6 +104,10 @@ A business team requested a visual progress bar to track performance toward a ta
 - Use ⚫ gray to represent the remaining portion
 
 Since Power BI doesn’t support conditional formatting in stacked bars, the solution splits the achieved value into ranges using DAX and applies fixed colors—mimicking dynamic progress grading.
+
+<br>
+
+[Download PBIX file](https://github.com/NaeveBoontham/Power-BI/tree/main/ProgressBar%26Dot)
 
 
 
