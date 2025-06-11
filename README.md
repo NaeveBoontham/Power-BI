@@ -1,4 +1,46 @@
 # Power-BI
+<br>  
+
+# 🔐 **Row-Level & Page-Level Security in Power BI**
+
+**📁 Overview**
+
+This Power BI project showcases how to implement **Row-Level Security (RLS)** and **Page-Level Security (PLS)** to control both **data visibility** and **report page access** based on department and role.
+
+The report uses:  
+- **RLS** to restrict which employee records users can see  
+- **PLS** to limit access to specific pages within the report
+
+**✅ Benefits**
+
+- Enforces strict data access without duplicating reports  
+- Ensures each user sees **only the data they’re allowed to**  
+- Built using native Power BI features — no external tools needed  
+- Scalable to multiple departments and role levels
+
+**💡 Use Case Example**
+
+The dataset contains employee records from **8 departments**:  
+`HR, Legal, Support, Marketing, Operations, Sales, IT, Finance`  
+Each department includes two roles: `Lead` and `Staff`.
+
+The report has two pages:  
+- `All View`  
+- `HR View Filter`
+
+The security setup enforces:  
+- **HR users** can access **both pages**  
+- **Other departments** can only view the **All View** page  
+- **Leads** can see all staff in their department — but **not other leads**  
+- **Staff** can only view **their own record**
+
+<br>
+
+![Pic](https://github.com/NaeveBoontham/Power-BI/blob/cada137944008c913bc4564f95e965db5dd73789/RLS%26PLS/RLS%26PLS.png)
+
+[Download PBIX file](https://github.com/NaeveBoontham/Power-BI/tree/main/RLS%26PLS)
+
+---
 <br>
 
 # 📊 Dynamic Latest Month Filtering in Power BI
