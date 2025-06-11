@@ -1,4 +1,10 @@
 # Power-BI
+⚠️ **Note:**  
+The projects shared in this repository are **not full end-to-end solutions**. They are **simplified, standalone components** inspired by real-world requirements I’ve encountered in my daily work. 
+
+These samples are created to demonstrate specific ideas, workarounds, or techniques.They are intentionally kept clean and focused, without including full datasets or complex business logic, to make them easier to understand and reuse.
+
+---
 <br>  
 
 # 🔐 **Row-Level & Page-Level Security in Power BI**
