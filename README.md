@@ -25,6 +25,8 @@ If the next time you refresh the dataset and the latest data ends at **October 2
 
 <br>
 
+![Pic](https://github.com/NaeveBoontham/Power-BI/blob/bd8603fed5f5913374d4ee8cae330fd64521fa8c/LastestMonthFilter/LastestMonthFilter.png)
+
 [Download PBIX file](https://github.com/NaeveBoontham/Power-BI/tree/main/LastestMonthFilter)
 
 ---
@@ -48,6 +50,8 @@ If the user selects **Year = 2020** and **Month = August**, the report will disp
 
 <br>
 
+![Pic](https://github.com/NaeveBoontham/Power-BI/blob/bd8603fed5f5913374d4ee8cae330fd64521fa8c/CumulativeMonthFilter/CumulativeMonthFilter.png)
+
 [Download PBIX file](https://github.com/NaeveBoontham/Power-BI/tree/main/CumulativeMonthFilter)
 
 ---
@@ -70,6 +74,8 @@ In this project, I built a **linear gauge-style bar chart** in Power BI to visua
 A score that ranges from **0–5** is normalized to a **1–5 scale**, and the result is plotted accordingly. Even if Grade 1 covers a huge part of the real range (e.g., 0–4), it appears as **just one equal segment** in the chart—just like every other grade. This makes it easier to visually compare and understand performance without bias from uneven value distribution.
 
 <br>
+
+![Pic](https://github.com/NaeveBoontham/Power-BI/blob/bd8603fed5f5913374d4ee8cae330fd64521fa8c/LinearGauge/LinearGauge.png)
 
 [Download PBIX file](https://github.com/NaeveBoontham/Power-BI/tree/main/LinearGauge)
 
@@ -106,6 +112,8 @@ A business team requested a visual progress bar to track performance toward a ta
 Since Power BI doesn’t support conditional formatting in stacked bars, the solution splits the achieved value into ranges using DAX and applies fixed colors—mimicking dynamic progress grading.
 
 <br>
+
+![Pic](https://github.com/NaeveBoontham/Power-BI/blob/ca3be4aa047e533e325f5d7f3bf19fea20958d24/ProgressBar%26Dot/ProgressBarDot.png)
 
 [Download PBIX file](https://github.com/NaeveBoontham/Power-BI/tree/main/ProgressBar%26Dot)
 
